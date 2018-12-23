@@ -1,5 +1,5 @@
 <template>
-    <div class="select" @click="toggle" ref="sel">
+    <div class="select" @click="toggle($event)" ref="sel">
         <div class="input">
             <input type="text" :placeholder="placeholder" readonly :value="value" @blur="handle">
         </div>
@@ -90,7 +90,7 @@ export default {
                 console.log(this.show);
             }, 2000);
         },
-        hideSel() {
+        hideSel(e) {
             this.show = false;
             if (this.$refs.sel && this.$refs.sel.contains(e.target)) {
                 // 如果是子元素则阻止事件捕获
@@ -99,9 +99,13 @@ export default {
             }
             domEvent.removeEvent(document, "click", this.hideSel, true);
         },
-        toggle() {
-            // this.showSel()
-            (this.show && this.hideSel()) || this.showSel();
+        toggle(e) {
+            if(this.show){
+                this.hideSel(e)
+            }else{
+                this.showSel()
+            }
+            // (this.show &&this.hideSel(e)  || this.showSel();
         }
     }
 };
