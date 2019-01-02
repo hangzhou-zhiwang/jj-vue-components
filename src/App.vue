@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <select-default style="width:100px;height:40px;margin-left:100px;"></select-default>
+     <router-view></router-view>
   </div>
 </template>
 
 <script>
-import SelectDefault from './components/select/default.vue'
 
 export default {
-  name: 'app',
-  components: {
-    SelectDefault
-  }
+  name: 'app'
 }
 </script>
 
