@@ -1,29 +1,9 @@
 # jj-vue-components
 
-## Project setup
-```
-yarn install
-```
+## 轮播
+/banner \
+一个接一个的轮播，最少渲染的效果
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 下拉框
+/select \
+一个接一个的轮播，最少渲染的效果
