@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import OneByOne from "./oneByOne";
+import OneByOne from "_c/BannerList";
 
 export default {
     components: {
@@ -14,4 +14,3 @@ export default {
     }
 };
 </script>
-

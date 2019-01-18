@@ -5,11 +5,15 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/select',
-        component: ()=>import('../components/select')
+        component: ()=>import('../page/select')
     },
     {
         path: '/banner',
-        component: ()=>import('../components/banner')
+        component: ()=>import('../page/banner')
+    },
+    {
+        path: '/button',
+        component: ()=>import('../page/button')
     }
 ]
 
