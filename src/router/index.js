@@ -14,6 +14,10 @@ const routes = [
     {
         path: '/button',
         component: ()=>import('../page/button')
+    },
+    {
+        path: '/rotate',
+        component: ()=>import('../page/rotate')
     }
 ]
 
