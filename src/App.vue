@@ -8,6 +8,7 @@
 				<router-link to="/banner" tag="li">轮播</router-link>
                 <router-link to="/rotate" tag="li">旋转</router-link>
                 <router-link to="/text" tag="li">文本</router-link>
+                <!-- <router-link to="/lucky" tag="li">抽奖</router-link> -->
 			</ul>
 		</div>
 		<router-view class=content></router-view>
@@ -52,14 +53,20 @@ $slide-width:100px;
     bottom: 0;
 	width: $slide-width;
 	ul{
-        padding:0;
-		width: 100%;
+        padding:10px;
+		width: calc(100% - 20px);
 	}
     li {
         list-style: none;
 		width:100%;
 		height: 40px;
+        line-height: 40px;
         cursor: pointer;
+        &.router-link-active{
+            background: #a0b3d6;
+            color:#fff;
+            border-radius: 10px;
+        }
     }
 }
 </style>

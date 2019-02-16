@@ -24,6 +24,10 @@ const routes = [
         component: ()=>import('../page/text')
     },
     {
+        path: '/lucky',
+        component: ()=>import('../page/lucky')
+    },
+    {
         path:'*',
         redirect:'/button'
     }

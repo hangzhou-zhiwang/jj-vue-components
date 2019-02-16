@@ -68,13 +68,6 @@
 </template>
 <script>
 export default {
-  name: 'luckDraw',
-
-  components: {
-    TitleBar,
-    LuckToast,
-  },
-
   data () {
     return {
       title: '积分转盘',
@@ -182,7 +175,7 @@ export default {
   .turntable-wrapper {
     padding: 0 px3rem(38);
     position: relative;
-    @include background-cover("background-luck.png");
+    // @include background-cover("background-luck.png");
     padding-top: px3rem(121);
 
     .luck-wrapper {
@@ -190,7 +183,7 @@ export default {
       height: px3rem(377);
       margin: 0 auto;
       position: relative;
-      @include background-cover("background-turntable.png");
+      // @include background-cover("background-turntable.png");
 
       .integral {
         width: 100%;
@@ -231,7 +224,7 @@ export default {
               width: 100%;
               height: 100%;
               margin: 0;
-              @include background-cover("background-grid.png");
+              // @include background-cover("background-grid.png");
             }
 
             img {
@@ -265,7 +258,7 @@ export default {
           }
 
           > div.getLuck {
-            @include background-cover("background-getLuck.png");
+            // @include background-cover("background-getLuck.png");
             font-size: 0;
 
             p {
@@ -290,7 +283,7 @@ export default {
       margin: 0 auto;
       text-align: center;
       line-height:px3rem(42);
-      @include background-cover("luckShrae.png");
+      // @include background-cover("luckShrae.png");
       margin-top: px3rem(22);
       color: #6d2d00;
       font-size: px3rem(16);
@@ -298,7 +291,7 @@ export default {
 
       .icon-go {
         @include size(30);
-        @include background-cover("goShare-icon.png");
+        // @include background-cover("goShare-icon.png");
 
         display: inline-block;
         vertical-align: middle;
