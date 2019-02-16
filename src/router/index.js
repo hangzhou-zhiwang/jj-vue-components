@@ -18,6 +18,10 @@ const routes = [
     {
         path: '/rotate',
         component: ()=>import('../page/rotate')
+    },
+    {
+        path: '/text',
+        component: ()=>import('../page/text')
     }
 ]
 
