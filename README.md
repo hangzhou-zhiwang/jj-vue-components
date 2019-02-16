@@ -1,9 +1,3 @@
 # jj-vue-components
 
-## 轮播
-/banner \
-一个接一个的轮播，最少渲染的效果
-
-## 下拉框
-/select \
-一个接一个的轮播，最少渲染的效果
+## [组件库地址](http://192.168.3.186:8080/jj-vue-components/dist/)
