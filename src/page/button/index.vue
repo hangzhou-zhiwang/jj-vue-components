@@ -1,16 +1,17 @@
 <template>
-  <div>
-    <button-default style="width:100px;height:40px;margin-left:100px;"></button-default>
-    <a href=#>&lt;/&gt;</a>
-  </div>
+	<div style="padding:10px;">
+		<code-box :link="$_c+'/Button.vue'">
+			<button-default style="display:inline-block;"></button-default>
+		</code-box>
+	</div>
 </template>
 
 <script>
 import ButtonDefault from '_c/Button'
 
 export default {
-  components: {
-    ButtonDefault
-  }
+	components: {
+		ButtonDefault
+	}
 }
 </script>

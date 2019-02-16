@@ -20,6 +20,10 @@ const routes = [
         component: ()=>import('../page/rotate')
     },
     {
+        path: '/text',
+        component: ()=>import('../page/text')
+    },
+    {
         path:'*',
         redirect:'/button'
     }
@@ -27,5 +31,7 @@ const routes = [
 
 
 export default new VueRouter({
-    routes
+    routes,
+    mode: 'history',
+    base:'/jj-vue-components/dist/'
 })
