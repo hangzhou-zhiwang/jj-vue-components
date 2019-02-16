@@ -5,6 +5,7 @@
 				<router-link to="/button" tag="li">按钮</router-link>
 				<router-link to="/select" tag="li">选择框</router-link>
 				<router-link to="/banner" tag="li">轮播</router-link>
+                <router-link to="/rotate" tag="li">旋转</router-link>
 			</ul>
 		</div>
 		<router-view class=content></router-view>
@@ -53,6 +54,7 @@ export default {
         list-style: none;
 		width:100%;
 		height: 40px;
+        cursor: pointer;
     }
 }
 </style>
