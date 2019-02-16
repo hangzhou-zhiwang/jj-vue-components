@@ -12,8 +12,8 @@ const resolve = dir => {
 // 例如：https://www.foobar.com/my-app/
 // 需要将它改为'/my-app/'
 const BASE_URL = process.env.NODE_ENV === 'production' ?
-    '/' :
-    '/'
+    '/jj-vue-components/dist/' :
+    '/jj-vue-components/dist/'
 
 module.exports = {
 
