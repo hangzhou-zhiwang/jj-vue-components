@@ -1,3 +1,3 @@
 # jj-vue-components
 
-## [组件库地址](https://javison666.github.io/jj-vue-components/dist/)
+## [组件库地址](https://hangzhou-zhiwang.github.io/jj-vue-components/dist/button)
