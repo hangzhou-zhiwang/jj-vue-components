@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import RotateCoin from '_c/RotateCoin'
+import RotateCoin from '_c/Rotate/RotateCoin'
 
 export default {
   components: {

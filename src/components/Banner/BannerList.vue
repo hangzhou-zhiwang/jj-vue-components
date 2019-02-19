@@ -5,7 +5,7 @@
             :style="{'width':oneWidth*(showNum+1)+'px'}">
             <li 
                 :style="{'width':oneWidth+'px'}"
-                v-for="(item,index) in list" v-if="index<=showNum" :key="index">{{item}}</li>
+                v-for="(item,index) in list" :key="index">{{item}}</li>
         </ul>
     </div>
 </template>
@@ -20,6 +20,11 @@ export default {
     },
     mounted() {
         this.init();
+    },
+    computed:{
+        listDom(){
+            return this.list.map((i)=>i<this.showNum)
+        }
     },
     methods: {
         init() {

@@ -9,6 +9,7 @@
                 <router-link to="/rotate" tag="li">旋转</router-link>
                 <router-link to="/text" tag="li">文本</router-link>
                 <!-- <router-link to="/lucky" tag="li">抽奖</router-link> -->
+                <router-link to="/editor" tag="li">编辑器</router-link>
 			</ul>
 		</div>
 		<router-view class=content></router-view>

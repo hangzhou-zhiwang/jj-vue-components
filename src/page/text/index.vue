@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import TextRolling from '_c/TextRolling'
+import TextRolling from '_c/Text/TextRolling'
 
 export default {
 	components: {
