@@ -8,8 +8,11 @@
                 <router-link to="/checkbox" tag="li">单选/多选</router-link>
                 <router-link to="/switch" tag="li">开关</router-link>
 				<router-link to="/banner" tag="li">轮播</router-link>
-                <router-link to="/rotate" tag="li">旋转</router-link>
                 <router-link to="/text" tag="li">文本</router-link>
+                <router-link to="/image" tag="li">图片</router-link>
+                <router-link to="/modal" tag="li">模态窗</router-link>
+                <router-link to="/rotate" tag="li">旋转</router-link>
+                
                 <!-- <router-link to="/lucky" tag="li">抽奖</router-link> -->
                 <router-link to="/editor" tag="li">编辑器</router-link>
 			</ul>

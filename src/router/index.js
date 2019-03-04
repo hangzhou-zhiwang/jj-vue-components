@@ -28,6 +28,14 @@ const routes = [
         component: ()=>import('../page/switch')
     },
     {
+        path: '/image',
+        component: ()=>import('../page/image')
+    },
+    {
+        path: '/modal',
+        component: ()=>import('../page/modal')
+    },
+    {
         path: '/checkbox',
         component: ()=>import('../page/checkbox')
     },
