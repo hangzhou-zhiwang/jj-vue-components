@@ -5,6 +5,8 @@
 			<ul>
 				<router-link to="/button" tag="li">按钮</router-link>
 				<router-link to="/select" tag="li">选择框</router-link>
+                <router-link to="/checkbox" tag="li">单选/多选</router-link>
+                <router-link to="/switch" tag="li">开关</router-link>
 				<router-link to="/banner" tag="li">轮播</router-link>
                 <router-link to="/rotate" tag="li">旋转</router-link>
                 <router-link to="/text" tag="li">文本</router-link>

@@ -24,6 +24,14 @@ const routes = [
         component: ()=>import('../page/text')
     },
     {
+        path: '/switch',
+        component: ()=>import('../page/switch')
+    },
+    {
+        path: '/checkbox',
+        component: ()=>import('../page/checkbox')
+    },
+    {
         path: '/lucky',
         component: ()=>import('../page/lucky')
     },
