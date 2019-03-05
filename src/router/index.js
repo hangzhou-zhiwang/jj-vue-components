@@ -2,60 +2,62 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 Vue.use(VueRouter)
-const routes = [
+const routes = [{
+        path: '/button',
+        component: () => import('../page/button')
+    },
     {
         path: '/select',
-        component: ()=>import('../page/select')
+        component: () => import('../page/select')
     },
     {
         path: '/banner',
-        component: ()=>import('../page/banner')
-    },
-    {
-        path: '/button',
-        component: ()=>import('../page/button')
+        component: () => import('../page/banner')
     },
     {
         path: '/rotate',
-        component: ()=>import('../page/rotate')
+        component: () => import('../page/rotate')
     },
     {
         path: '/text',
-        component: ()=>import('../page/text')
+        component: () => import('../page/text')
     },
     {
         path: '/switch',
-        component: ()=>import('../page/switch')
+        component: () => import('../page/switch')
     },
     {
         path: '/image',
-        component: ()=>import('../page/image')
+        component: () => import('../page/image')
     },
     {
         path: '/modal',
-        component: ()=>import('../page/modal')
+        component: () => import('../page/modal')
     },
     {
         path: '/checkbox',
-        component: ()=>import('../page/checkbox')
+        component: () => import('../page/checkbox')
     },
     {
         path: '/lucky',
-        component: ()=>import('../page/lucky')
+        component: () => import('../page/lucky')
     },
     {
         path: '/editor',
-        component: ()=>import('../page/editor')
+        component: () => import('../page/editor')
     },
     {
-        path:'*',
-        redirect:'/button'
-    }
-]
+        path: '/reg',
+        component: () => import('../page/reg')
+    },
+    {
+        path: '*',
+        redirect: '/button'
+    }]
 
 
 export default new VueRouter({
     routes,
     // mode: 'history',
-    base:'/jj-vue-components/dist/'
+    base: '/jj-vue-components/dist/'
 })

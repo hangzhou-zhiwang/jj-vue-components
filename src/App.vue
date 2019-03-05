@@ -15,6 +15,7 @@
                 
                 <!-- <router-link to="/lucky" tag="li">抽奖</router-link> -->
                 <router-link to="/editor" tag="li">编辑器</router-link>
+                <router-link to="/reg" tag="li">正则</router-link>
 			</ul>
 		</div>
 		<router-view class=content></router-view>
