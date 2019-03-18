@@ -1,6 +1,10 @@
 <template>
 	<div style="padding:10px;">
+<<<<<<< HEAD
 		<code-box :link="$_c+'/Text/TextRolling.vue'">
+=======
+		<code-box :link="$_c+'/TextRolling.vue'">
+>>>>>>> dc20bf4fd672feb81dc3bb4f834cd8a262f8713a
             <text-rolling style="display:inline-block;"></text-rolling>
 		</code-box>
 	</div>

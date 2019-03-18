@@ -51,10 +51,13 @@ const routes = [{
         component: () => import('../page/reg')
     },
     {
+<<<<<<< HEAD
         path: '/monacoEditor',
         component: () => import('../page/vue-monaco-editor')
     },
     {
+=======
+>>>>>>> dc20bf4fd672feb81dc3bb4f834cd8a262f8713a
         path: '*',
         redirect: '/button'
     }]
