@@ -19,6 +19,8 @@
                 <router-link to="/noData" tag="li">无数据</router-link>
                 <router-link to="/codeMirror" tag="li">codeMirror</router-link>
                 <router-link to="/draggableTree" tag="li">draggableTree</router-link>
+                <router-link to="/countDown" tag="li">倒计时</router-link>
+                <router-link to="/progressBar" tag="li">进度条</router-link>
                 
 			</ul>
 		</div>

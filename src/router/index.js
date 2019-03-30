@@ -67,6 +67,14 @@ const routes = [{
         component: () => import('../page/draggableTree')
     },
     {
+        path: '/countDown',
+        component: () => import('../page/countDown')
+    },
+    {
+        path: '/progressBar',
+        component: () => import('../page/progressBar')
+    },
+    {
         path: '*',
         redirect: '/button'
     }]
