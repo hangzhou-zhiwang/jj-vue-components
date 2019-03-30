@@ -16,10 +16,7 @@
                 <!-- <router-link to="/lucky" tag="li">抽奖</router-link> -->
                 <router-link to="/editor" tag="li">编辑器</router-link>
                 <router-link to="/reg" tag="li">正则</router-link>
-<<<<<<< HEAD
                 <router-link to="/monacoEditor" tag="li">MonacoEditor</router-link>
-=======
->>>>>>> dc20bf4fd672feb81dc3bb4f834cd8a262f8713a
 			</ul>
 		</div>
 		<router-view class=content></router-view>
@@ -34,11 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-<<<<<<< HEAD
-$slide-width:120px;
-=======
 $slide-width:100px;
->>>>>>> dc20bf4fd672feb81dc3bb4f834cd8a262f8713a
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
