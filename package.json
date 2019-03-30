@@ -8,13 +8,9 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "monaco-editor-webpack-plugin": "^1.7.0",
     "vue": "^2.5.17",
     "vue-monaco": "^0.3.1",
-=======
-    "vue": "^2.5.17",
->>>>>>> dc20bf4fd672feb81dc3bb4f834cd8a262f8713a
     "vue-router": "^3.0.2",
     "wangeditor": "^3.1.1"
   },
