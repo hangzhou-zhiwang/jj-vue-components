@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0e613e"],{"96e0":function(n,e,t){"use strict";t.r(e);var o=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div",[n._v("\n    单选框\n")])},u=[],c={components:{}},i=c,l=t("2877"),s=Object(l["a"])(i,o,u,!1,null,null,null);s.options.__file="index.vue";e["default"]=s.exports}}]);
-//# sourceMappingURL=chunk-2d0e613e.8874591c.js.map

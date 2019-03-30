@@ -55,6 +55,18 @@ const routes = [{
         component: () => import('../page/vue-monaco-editor')
     },
     {
+        path: '/noData',
+        component: () => import('../page/noData')
+    },
+    {
+        path: '/codeMirror',
+        component: () => import('../page/codeMirror')
+    },
+    {
+        path: '/draggableTree',
+        component: () => import('../page/draggableTree')
+    },
+    {
         path: '*',
         redirect: '/button'
     }]
