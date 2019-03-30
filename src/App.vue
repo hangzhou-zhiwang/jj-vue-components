@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$slide-width:100px;
+$slide-width:120px;
 #app {
     font-family: "Avenir", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
