@@ -1,6 +1,5 @@
 const path = require('path')
-const MonacoWebpackPlugin = require('monaco-editor-webpack-plugin');
-
+const MonocoEditorPlugin = require('monaco-editor-webpack-plugin')
 const resolve = dir => {
     return path.join(__dirname, dir)
 }
@@ -26,7 +25,14 @@ module.exports = {
     // https://www.foobar.com/my-app/
     // then change this to '/my-app/'
     baseUrl: BASE_URL,
-
+    configureWebpack: {
+        node: {
+            process: true,
+        },
+        plugins: [
+            new MonocoEditorPlugin()
+        ]
+    },
     // 打包路径配置
     outputDir: './dist',
 

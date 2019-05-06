@@ -51,6 +51,30 @@ const routes = [{
         component: () => import('../page/reg')
     },
     {
+        path: '/monacoEditor',
+        component: () => import('../page/vue-monaco-editor')
+    },
+    {
+        path: '/noData',
+        component: () => import('../page/noData')
+    },
+    {
+        path: '/codeMirror',
+        component: () => import('../page/codeMirror')
+    },
+    {
+        path: '/draggableTree',
+        component: () => import('../page/draggableTree')
+    },
+    {
+        path: '/countDown',
+        component: () => import('../page/countDown')
+    },
+    {
+        path: '/progressBar',
+        component: () => import('../page/progressBar')
+    },
+    {
         path: '*',
         redirect: '/button'
     }]
