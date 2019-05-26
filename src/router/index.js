@@ -99,6 +99,10 @@ const routes = [{
     component: () => import('../page/message')
 },
 {
+    path: '/chart',
+    component: () => import('../page/chart')
+},
+{
     path: '*',
     redirect: '/button'
 }]
@@ -106,6 +110,6 @@ const routes = [{
 
 export default new VueRouter({
     routes,
-    // mode: 'history',
+    mode: process.env.NODE_ENV === 'production'?'hash':'history',
     base: '/jj-vue-components/dist/'
 })

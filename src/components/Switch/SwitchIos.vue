@@ -10,7 +10,7 @@
 </template>
 
 <script>
-
+// 三宝
 export default {
     model: {
         prop: 'checked',
