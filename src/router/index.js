@@ -71,6 +71,34 @@ const routes = [{
         component: () => import('../page/countDown')
     },
     {
+        path: '/tag',
+        component: () => import('../page/tags')
+    },
+    {
+        path: '/breadcrumb',
+        component: () => import('../page/breadcrumb')
+    },
+    {
+        path: '/badge',
+        component: () => import('../page/badge')
+    },
+    {
+        path: '/alert',
+        component: () => import('../page/alert')
+    },
+    {
+        path: '/card',
+        component: () => import('../page/card')
+    },
+    {
+        path: '/message',
+        component: () => import('../page/message')
+    },
+    {
+        path: '/chart',
+        component: () => import('../page/chart')
+    },
+    {
         path: '/progressBar',
         component: () => import('../page/progressBar')
     },
@@ -93,11 +121,12 @@ const routes = [{
     {
         path: '*',
         redirect: '/button'
-    }]
+    }
+]
 
 
 export default new VueRouter({
     routes,
-    // mode: 'history',
+    mode: process.env.NODE_ENV === 'production' ? 'hash' : 'history',
     base: '/jj-vue-components/dist/'
 })

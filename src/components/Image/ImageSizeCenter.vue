@@ -13,6 +13,7 @@
 </template>
 
 <script>
+// 三宝
 // 按照分辨率自适应居中
 export default {
     props: ["src", "percent","width","height"],

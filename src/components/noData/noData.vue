@@ -5,6 +5,7 @@
     </div>
 </template>
 <script>
+// 三宝
 export default {
     props:{
         loading:{

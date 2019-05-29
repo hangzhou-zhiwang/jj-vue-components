@@ -10,6 +10,7 @@
     </div>
 </template>
 <script>
+// 三宝
 export default {
     data() {
         return {

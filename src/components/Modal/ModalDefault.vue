@@ -22,6 +22,7 @@
     </transition>
 </template>
 <script>
+// 三宝
 export default {
     props:{
         title:{

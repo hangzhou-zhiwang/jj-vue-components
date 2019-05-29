@@ -18,6 +18,7 @@
 </template>
 
 <script>
+// 三宝
 import domEvent from "@/utils/event";
 export default {
     name: "comSelect",

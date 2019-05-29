@@ -1,8 +1,19 @@
 <template>
     <div>
-        <input type="button" class="jj-button" value="按钮">
+        <input type="button" class="jj-button" :value="value">
     </div>
 </template>
+<script>
+// 三宝
+export default {
+    props:{
+        value:{
+            default:''
+        }
+    }
+}
+</script>
+
 <style lang="scss" scoped>
 .jj-button {
     display: inline-block;
