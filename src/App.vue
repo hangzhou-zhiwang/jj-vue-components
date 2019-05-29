@@ -21,7 +21,10 @@
                 <router-link to="/draggableTree" tag="li">draggableTree</router-link>
                 <router-link to="/countDown" tag="li">倒计时</router-link>
                 <router-link to="/progressBar" tag="li">进度条</router-link>
-                
+                <router-link to="/DropdownMenu" tag="li">下拉菜单</router-link>
+                <router-link to="/calculator" tag="li">数量加减</router-link>
+                <router-link to="/page" tag="li">分页</router-link>
+                <router-link to="/fold" tag="li">折叠面板</router-link>
 			</ul>
 		</div>
 		<router-view class=content></router-view>

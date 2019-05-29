@@ -75,6 +75,22 @@ const routes = [{
         component: () => import('../page/progressBar')
     },
     {
+        path: '/DropdownMenu',
+        component: () => import('../page/DropdownMenu')
+    },
+    {
+        path: '/calculator',
+        component: () => import('../page/calculator')
+    },
+    {
+        path: '/page',
+        component: () => import('../page/page')
+    },
+    {
+        path: '/fold',
+        component: () => import('../page/fold')
+    },
+    {
         path: '*',
         redirect: '/button'
     }]
